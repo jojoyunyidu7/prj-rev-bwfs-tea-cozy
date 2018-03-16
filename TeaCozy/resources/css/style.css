@@ -1,0 +1,165 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+}
+
+.header-logo {
+  margin-left: 10px;
+}
+
+.header-logo-image {
+  height: 50px;
+}
+
+.header-nav {
+  margin-right: 20px;
+}
+
+.nav-btn {
+  padding: 20px 10px;
+  font-size: 22px;
+}
+
+a:link {
+  color: seashell;
+
+}
+
+a:visited {
+  color: seashell;
+}
+
+.content {
+  position: relative;
+  top: 69px;
+  z-index: 0;
+}
+
+.mission-container {
+  height: 700px;
+  width: 1200px;
+  background-image: url('../images/img-mission-background.jpg');
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-content {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-tea-caption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-tea-item-image {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+h2, h3, h4, h5, p {
+  color: seashell;
+}
+
+.feature-tea-flex-container  {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: center;
+}
+
+.feature-tea-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.location {
+  width: 1200px;
+  height: 500px;
+  background-image: url('../images/img-locations-background.jpg');
+  background-repeat: no-repeat;
+}
+
+.location-title {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  padding: 10px;
+}
+
+.location-flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-flex-item {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copyrights {
+  padding-left: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+h4 {
+  font-size: 1.33em;
+}
+
+h5 {
+  font-size: 0.85em;
+}
+
+p {
+  font-size: 1em;
+}
